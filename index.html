@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="body1">
+
+  <header class="header1">
+    <h1 class="mainHead">Learn to code by watching others</h1>
+    <p class="mainText">See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+      but understanding how developers think is invaluable.</p>
+  </header>
+
+  <main class=main1>
+    <button class="btn btnBlue" type="button" name="button"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+    <div class="card">
+
+      <input class="stuff input1" id="firstName" type="text" name="" value="" placeholder="First Name">
+      <p class="hidden" id="fnameError">First Name cannot be empty</p>
+
+      <input class="stuff input1" id="lastName" type="text" name="" value="" placeholder="Last Name">
+      <p class="hidden" id="lnameError">Last name cannot be empty</p>
+
+      <input class="input1" id="email" type="text" name="" value="" placeholder="Email Address">
+      <p class="hidden" id="emailError">Looks like this is not an email</p>
+
+      <input class="stuff input1" id="password" type="text" name="" value="" placeholder="Password">
+      <p class="hidden" id="passwordError">Password cannot be empty</p>
+
+      <button class="btn btnGreen" type="button" name="button">Claim your free trial</button>
+      <p class="infoText">By clicking the button, you are agreeing to our <span class="redText">Terms and Services</span></p>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
